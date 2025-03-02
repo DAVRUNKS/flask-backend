@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+*.env
+*.venv
+
+# Dependency files
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Flask logs
+instance/
+*.log
+
+# Database
+*.sqlite3
+*.db
+migrations/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
